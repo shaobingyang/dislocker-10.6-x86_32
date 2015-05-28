@@ -1,0 +1,26 @@
+language: c
+
+compiler:
+    - clang
+    - gcc
+
+os:
+    - linux
+    - osx
+
+before_install:
+    - cd src
+
+install:
+    - make CC=$CC travis-install
+
+script:
+    - make travis-test
+
+notifications:
+    email:
+        recipients:
+            - kenneyhe@gmail.com
+
+        on_success: always
+        on_failure: always
