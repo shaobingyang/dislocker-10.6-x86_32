@@ -1,8 +1,8 @@
 .\"
 .\"
-.TH DISLOCKER 1 2011-09-07 "Linux" "DISLOCKER"
+.TH DISLOCKER 1 2011-09-07 "Mac OS X" "DISLOCKER"
 .SH NAME
-Dislocker - Read BitLocker encrypted volumes under Linux
+Dislocker - Read BitLocker encrypted volumes under Mac OS X
 .SH SYNOPSIS
 dislocker [-hqrsv] [-l \fILOG_FILE\fR] [-o \fIOFFSET\fR] [-V \fIVOLUME\fR \fIDECRYPTMETHOD\fR -F[\fIN\fR]] [-- \fIARGS\fR...]
 
